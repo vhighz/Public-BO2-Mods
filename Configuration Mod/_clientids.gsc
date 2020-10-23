@@ -49,7 +49,7 @@ init()
 	
 	
 	//sets the players maximum health zombies do 60 damage so 121 would be 3 hits 181 would be 4 and so on
-	level.cmPlayerMaxHealth = getDvarIntDefault( "cmPlayerMaxHealth", 100 );
+	level.cmPlayerMaxHealth = getDvarIntDefault( "cmPlayerMaxHealth", 999 );
 	//sets the players starting points when first joining a server
 	level.player_starting_points = getDvarIntDefault( "cmPlayerStartingPoints", 500 );
 	//sets the perk limit for all players
